@@ -40,8 +40,11 @@ a, .Header-logo{
     color: white;
     text-decoration: none;
 }
-.Header-logo{
+.Header-logo, .heading{
     font-weight: bold;
+}
+.heading{
+    font-size: 24px;
 }
 button{
     color: white;
@@ -55,7 +58,7 @@ button{
 }
 .dogimage img{
     height: 200px;
-    width: 50%;
+    width: auto;
     background-color: powderblue;
     object-fit: contain
 
@@ -71,7 +74,9 @@ button{
     justify-content: center;
     align-items: center;
     gap: 100px;
+    height: 400px;
 }
+
 .top{
     display: flex;
     justify-content: center;
@@ -80,22 +85,62 @@ button{
 .section3{
     background-color: #e5e7eb;
     height: 100px;
-    width: auto;
+    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    padding: 100px;
+    padding: 70px;
+}
+.container img{
+    height: 100px;
+    width: 100px;
+    border-radius: 12px;
+    border: 5px solid #3882f6;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 .sec3text{
     width: 400px;
     flex-wrap: wrap;
-    
+    font-style: italic;
+    font-weight: lighter;
+    color: #1f2937;
+}
+.author{
+    margin-left:280px;
 }
 .section4, .bottom{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 10px;
-    margin-bottom: 20px;
+    gap: 100px;
+}
+.section4{
+    padding: 25px 50px;
+    background-color: #3882f6;
+    border-radius: 12px;
+    margin: 25px;
+}
+.header, .text1{
+    color:white;
+}
+.header{
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.section4 button{
+    border-color: white;
+    border: 1px solid;
+}
+.bottom{
+    background-color: #1f2937;
+    color: white;
+    width: 100%;
+    padding: 25px;
 }
